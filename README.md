@@ -5,4 +5,4 @@ ip pinger made in python
 
 - run main.py
 
-- if you want to do this on your computer you must have python installed
+- if you want to do this on your computer you must have python installed.
