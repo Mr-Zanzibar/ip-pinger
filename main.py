@@ -5,7 +5,7 @@ import time
 
 logo = f"""
 {Fore.RED}       IP Pinger        
-{Fore.RED}       By Mr.Cuda  
+{Fore.RED}       By Mr-Cuda  
 """
 
 os.system('cls')
