@@ -6,6 +6,7 @@ import time
 logo = f"""
 {Fore.RED}       IP Pinger        
 {Fore.RED}       By Mr-Cuda  
+{Fore.RED}       jjjjjjjjjjjjjjjj
 """
 
 os.system('cls')
@@ -22,7 +23,7 @@ def ping():
             print(logo)
             time.sleep(0.1)
 
-os.system('😎')
+os.system('🤦‍♂️')
 
 print(logo)
 IP = input('Enter IP : ')
