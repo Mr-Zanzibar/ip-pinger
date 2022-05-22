@@ -25,4 +25,4 @@ os.system('😎')
 
 print(logo)
 IP = input('Enter IP : ')
-ping()
+ping() # really simple
