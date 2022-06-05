@@ -3,6 +3,6 @@ ip pinger made in python
 
 # how to start?
 
-- run main.py
+- install [Python](https://python.org/download)
 
-- if you want to do this on your computer you must have python installed.
+- start main.py
