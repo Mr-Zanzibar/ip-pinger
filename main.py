@@ -4,7 +4,8 @@ import os
 import time
 
 logo = f"""
-{Fore.RED}       IP Pinger        
+{Fore.RED}       IP Pinger
+{Fore.RED}       By Mr-Cuda        
 """
 
 os.system('cls')
