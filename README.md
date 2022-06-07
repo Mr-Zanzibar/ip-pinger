@@ -5,4 +5,4 @@ ip pinger made in python
 
 - install [Python](https://python.org/download)
 
-- start main.py
+- click on start.bat
