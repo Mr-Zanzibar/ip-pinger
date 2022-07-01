@@ -22,7 +22,7 @@ def ping():
             print(logo)
             time.sleep(0.1)
 
-os.system('😎')
+os.system('😉')
 
 print(logo)
 IP = input('Enter IP : ')
