@@ -1,4 +1,4 @@
 @echo off
-TITLE IP Pinger (wow)
+TITLE IP Pinger
 python main.py
 pause
