@@ -1,4 +1,5 @@
 @echo off
-TITLE IP Pinger
+TITlE IP PINGER
+pip install colorama
+echo DONE
 python main.py
-pause
