@@ -5,22 +5,30 @@ import time
 
 colorama.init()
 
-logo = f"""
-{Fore.RED}       IP Pinger
-{Fore.RED}       This shit needs a better logo        
-"""
+print(Fore.RED + """
 
-os.system('cls')
+ /$$$$$$ /$$$$$$$        /$$$$$$$  /$$$$$$ /$$   /$$  /$$$$$$  /$$$$$$$$ /$$$$$$$ 
+|_  $$_/| $$__  $$      | $$__  $$|_  $$_/| $$$ | $$ /$$__  $$| $$_____/| $$__  $$
+  | $$  | $$  \ $$      | $$  \ $$  | $$  | $$$$| $$| $$  \__/| $$      | $$  \ $$
+  | $$  | $$$$$$$/      | $$$$$$$/  | $$  | $$ $$ $$| $$ /$$$$| $$$$$   | $$$$$$$/
+  | $$  | $$____/       | $$____/   | $$  | $$  $$$$| $$|_  $$| $$__/   | $$__  $$
+  | $$  | $$            | $$        | $$  | $$\  $$$| $$  \ $$| $$      | $$  \ $$
+ /$$$$$$| $$            | $$       /$$$$$$| $$ \  $$|  $$$$$$/| $$$$$$$$| $$  | $$
+|______/|__/            |__/      |______/|__/  \__/ \______/ |________/|__/  |__/
+                                                                                  
+                                                                                  
+                                                                                  
+""")
+
+# os.system('cls')
 
 def ping():
     while True:
         ping_response = os.system(f'ping -n 1 {IP} > nul')
         if ping_response == 0:
-            os.system('cls')
             print(logo)
             time.sleep(0.1)
         else:
-            os.system('cls')
             print(logo)
             time.sleep(0.1)
 
